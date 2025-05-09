@@ -29,7 +29,7 @@
 
   <main class="policy-container">
     <h1 class="policy-title">Términos de Uso</h1>
-    <p class="policy-text"><strong>Última actualización:</strong> 02/05/2025</p>
+    <p class="policy-text"><strong>Última actualización:</strong> 09/05/2025</p>
     <p class="policy-text">
       Estos Términos de Uso rigen el uso de la aplicación StepVital y el acuerdo que se establece entre IgniSquare y tú, usuario de la app. Al acceder o utilizar StepVital, aceptas íntegramente los presentes términos. Si no estás de acuerdo con ellos, no debes usar la aplicación.
     </p>
@@ -60,7 +60,9 @@
       </p>
      <p class="policy-text"><strong>2.3. Autenticación y Respaldo de Datos:</strong></p>
       <p class="policy-text">
-El acceso a StepVital se realiza exclusivamente mediante Google Sign‑In a través de Firebase Authentication. Al autenticarte, se genera o restaura automáticamente un backup de tu información en la nube. Los backups automáticos se programan cada 12 horas y puedes activarlos manualmente desde Ajustes > Backup.
+El acceso a StepVital se realiza exclusivamente mediante Google Sign-In a través de Firebase Authentication. Al autenticarte, se genera o restaura automáticamente un backup de tu información en la nube; estos respaldos automáticos se programan cada 12 horas y también pueden iniciarse manualmente desde Ajustes &gt; Backup.  
+  Además, para proteger tu cuenta y evitar accesos simultáneos en distintos dispositivos, al iniciar sesión generamos un <strong>identificador único de dispositivo</strong> (deviceId). Este identificador se asocia a tu usuario en la colección <code>sessions/{userId}</code> de Firestore y se elimina inmediatamente cuando cierras sesión, garantizando así la integridad y seguridad de tus datos.
+      
       </p>
            <p class="policy-text"><strong>2.4. Verificación de Conectividad:</strong></p>
       <p class="policy-text">
