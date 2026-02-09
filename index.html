@@ -123,6 +123,48 @@
 El acceso a StepVital se realiza exclusivamente mediante Google Sign-In a través de Firebase Authentication. Al autenticarte, se genera o restaura automáticamente un backup de tu información en la nube; estos respaldos automáticos se programan cada 24 horas y también pueden iniciarse manualmente desde Ajustes &gt; Backup.  
        </p>
 
+
+      <section>
+  <p class="policy-text"><strong>2.3.1. Sincronización con Health Connect:</strong></p>
+  <p class="policy-text">
+    StepVital ofrece integración opcional con Health Connect para sincronizar tu actividad física con dispositivos wearables y otras aplicaciones de salud compatibles.
+  </p>
+  
+  <p class="policy-text"><strong>Requisitos:</strong></p>
+  <ul class="policy-list">
+    <li>Tener instalada la aplicación Health Connect en tu dispositivo Android.</li>
+    <li>Otorgar permisos de lectura y escritura para: Pasos, Distancia, Calorías y Ejercicio.</li>
+    <li>Mantener los permisos activos desde la configuración del sistema para que la sincronización continúe funcionando.</li>
+  </ul>
+  
+  <p class="policy-text"><strong>Funcionalidad:</strong></p>
+  <ul class="policy-list">
+    <li><strong>Lectura:</strong> StepVital lee datos de wearables (relojes inteligentes, bandas de fitness) para combinarlos con la actividad del teléfono.</li>
+    <li><strong>Escritura:</strong> StepVital escribe tu actividad local (pasos, distancia, calorías, tiempo activo) a Health Connect cada 15 minutos para que otras apps puedan acceder a tus datos.</li>
+    <li><strong>Sincronización histórica:</strong> Al activar Health Connect por primera vez, StepVital recupera automáticamente los últimos 7 días de actividad registrada en wearables.</li>
+  </ul>
+  
+  <p class="policy-text"><strong>Disponibilidad:</strong></p>
+  <ul class="policy-list">
+    <li>La sincronización con Health Connect es completamente opcional y puede activarse/desactivarse desde Ajustes → Health Connect.</li>
+    <li>Si Health Connect no está instalado, StepVital te redirigirá a Google Play Store para descargarlo.</li>
+    <li>La app funciona completamente sin Health Connect; esta integración solo amplía la compatibilidad con el ecosistema de salud de Android.</li>
+  </ul>
+  
+  <p class="policy-text"><strong>Responsabilidad del Usuario:</strong></p>
+  <ul class="policy-list">
+    <li>Es tu responsabilidad mantener actualizados los permisos de Health Connect desde la configuración del sistema.</li>
+    <li>Si revocas permisos, la sincronización se desactivará automáticamente y los datos de wearables dejarán de aparecer en la app.</li>
+    <li>IgniSquare no se hace responsable por inconsistencias en los datos causadas por configuraciones incorrectas de Health Connect o por datos inexactos proporcionados por dispositivos de terceros.</li>
+  </ul>
+  
+  <p class="policy-text"><strong>Privacidad:</strong></p>
+  <p class="policy-text">
+    Los datos sincronizados con Health Connect se procesan localmente en tu dispositivo y solo se almacenan en la nube de Firebase si tienes activada la copia de seguridad automática. Para más información, consulta nuestra <a href="https://frikii21k.github.io/IgniSquare-Policy-Privacy.github.io/" target="_blank" rel="noopener">Política de Privacidad</a>, sección "Health Connect Data".
+  </p>
+</section>
+
+      
  
            <p class="policy-text"><strong>2.4. Verificación de Conectividad:</strong></p>
       <p class="policy-text">
